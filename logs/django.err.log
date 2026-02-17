@@ -1609,3 +1609,17 @@ Watching for file changes with StatReloader
 [16/Feb/2026 23:19:59] "GET /media/storia/image/missione-internazionale-sisma-turchia.jpg HTTP/1.1" 200 917560
 [17/Feb/2026 05:58:21] "GET /api/storia/ HTTP/1.1" 200 21646
 [17/Feb/2026 06:03:39] "GET /api/storia/ HTTP/1.1" 200 21646
+Watching for file changes with StatReloader
+[17/Feb/2026 08:12:22] "GET /api/storia/ HTTP/1.1" 200 21646
+[17/Feb/2026 08:12:22] "GET /media/storia/image/basilica-san-benedetto-norcia-vigili-del-fuoco-salvarono-facciata-subito-do_nCMsirH.jpg HTTP/1.1" 304 0
+[17/Feb/2026 08:12:22] "GET /media/storia/image/alluvione-delle-marche-del-2022.jpg HTTP/1.1" 304 0
+[17/Feb/2026 08:12:22] "GET /media/storia/image/un-anno-fa-la-tragica-alluvione-emilia-romagna.jpg HTTP/1.1" 304 0
+[17/Feb/2026 08:12:22] "GET /media/storia/image/museo-storico-dei-vigili-del-fuoco-di-roma-capannelle.jpg HTTP/1.1" 304 0
+[17/Feb/2026 08:12:22] "GET /media/storia/image/esplosione-cascina-quargnento-al_1.jpg HTTP/1.1" 304 0
+[17/Feb/2026 08:12:22] "GET /media/storia/image/missione-internazionale-sisma-turchia.jpg HTTP/1.1" 304 0
+[17/Feb/2026 08:12:22] "GET /media/storia/image/la-tragedia-di-ravanusa.jpg HTTP/1.1" 304 0
+[17/Feb/2026 08:12:22] "GET /media/storia/image/nubifragio-e-frana-sull-isola-di-ischia.jpg HTTP/1.1" 304 0
+[17/Feb/2026 08:12:22] "GET /media/storia/image/un-anno-fa-l-alluvione-toscana-il-ricordo-dei-vigili-del-fuoco.jpg HTTP/1.1" 304 0
+[17/Feb/2026 08:12:22] "GET /media/storia/image/missione-internazionale-sisma-albania_4.jpg HTTP/1.1" 304 0
+[17/Feb/2026 08:12:22] "GET /media/storia/image/missione-internazionale-beirut-explosion.jpg HTTP/1.1" 304 0
+[17/Feb/2026 08:12:22] "GET /media/storia/image/incidente-funivia-stresa-alpino-mottarone.jpg HTTP/1.1" 304 0

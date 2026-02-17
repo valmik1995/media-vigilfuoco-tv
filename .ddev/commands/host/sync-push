@@ -3,7 +3,7 @@ set -e
 
 # 1. Esporta il database (COMMENTATO PER TEST)
 # echo "📦 Esportazione del database..."
-# ddev export-db --gzip=false --file=data_sync.sql
+ddev export-db --gzip=false --file=data_sync.sql
 
 # 2. Operazioni Git
 echo "🚀 Preparazione push su Git..."
