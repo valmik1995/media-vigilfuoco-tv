@@ -1,0 +1,12 @@
+node_modules/
+**/node_modules/
+.venv/
+backend/.venv/
+venv/
+__pycache__/
+backend/media/
+backend/staticfiles/
+frontend/src/assets/media/
+frontend/public/media/
+.DS_Store
+data_sync.sql

@@ -1,0 +1,20 @@
+#!/bin/bash
+set -e
+
+echo "📥 Recupero modifiche da Git..."
+git pull
+
+# Verifichiamo se il file esiste prima di importare
+if [ -f "data_sync.sql" ]; then
+    echo "⚙️ Importazione database..."
+    ddev start
+    ddev import-db --src=data_sync.sql
+    
+    echo "🧹 Pulizia file SQL importato..."
+    rm data_sync.sql
+else
+    echo "ℹ️ Nessun dump del database trovato nel pull, procedo con l'avvio..."
+    ddev start
+fi
+
+echo "✨ Ambiente aggiornato!"

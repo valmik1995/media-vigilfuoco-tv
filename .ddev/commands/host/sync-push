@@ -1,0 +1,21 @@
+#!/bin/bash
+set -e
+
+# 1. Esporta il database (COMMENTATO PER TEST)
+# echo "📦 Esportazione del database..."
+# ddev export-db --gzip=false --file=data_sync.sql
+
+# 2. Operazioni Git
+echo "🚀 Preparazione push su Git..."
+# git add data_sync.sql (COMMENTATO)
+git add .
+
+MSG=${1:-"Sync No-DB da $(hostname) - $(date +'%d/%m/%Y %H:%M')"}
+
+echo "📝 Commit in corso..."
+git commit -m "$MSG" || echo "⚪ Nulla di nuovo da committare"
+
+echo "📤 Upload su GitHub..."
+git push
+
+echo "✨ Test No-DB completato!"

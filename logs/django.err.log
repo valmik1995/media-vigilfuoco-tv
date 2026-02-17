@@ -1,0 +1,1611 @@
+[16/Feb/2026 15:55:38] "GET /api/galleria/?page=1&category__name=ATTREZZATURE HTTP/1.1" 200 9014
+[16/Feb/2026 15:55:38] "GET /media/galleria/thumbnails/2026/02/14/thumb_caricamento_mezzi_346_chEzfkp.jpeg HTTP/1.1" 304 0
+[16/Feb/2026 15:55:38] "GET /media/galleria/thumbnails/2026/02/14/thumb_soccorso_a_persona_430_Wp5hsoR.jpg HTTP/1.1" 304 0
+[16/Feb/2026 15:55:38] "GET /media/galleria/thumbnails/2026/02/14/thumb_attrezzatura_nbcr_435_8gqViiC.jpg HTTP/1.1" 304 0
+[16/Feb/2026 15:55:38] "GET /media/galleria/thumbnails/2026/02/14/thumb_nbcr_446_4I0QSkc.jpg HTTP/1.1" 304 0
+[16/Feb/2026 15:55:38] "GET /media/galleria/thumbnails/2026/02/14/thumb_caricamento_mezzi_349_ZjvIts1.jpeg HTTP/1.1" 304 0
+[16/Feb/2026 15:55:38] "GET /media/galleria/thumbnails/2026/02/14/thumb_grigri_364_7kr6O52.jpg HTTP/1.1" 304 0
+[16/Feb/2026 15:55:38] "GET /media/galleria/thumbnails/2026/02/14/thumb_caricamento_mezzi_350_DkARcvb.jpg HTTP/1.1" 304 0
+[16/Feb/2026 15:55:38] "GET /media/galleria/thumbnails/2026/02/14/thumb_caricamento_mezzi_348_Yf07gmE.jpeg HTTP/1.1" 304 0
+[16/Feb/2026 15:55:38] "GET /media/galleria/thumbnails/2026/02/14/thumb_mototroncatrice_358_6ud5usy.jpg HTTP/1.1" 304 0
+[16/Feb/2026 15:55:38] "GET /media/galleria/thumbnails/2026/02/14/thumb_radio_vvf_362_Vswu3T2.jpg HTTP/1.1" 304 0
+[16/Feb/2026 15:55:38] "GET /media/galleria/thumbnails/2026/02/14/thumb_caricamento_mezzi_347_PgJG66w.jpeg HTTP/1.1" 304 0
+[16/Feb/2026 15:55:38] "GET /media/galleria/thumbnails/2026/02/14/thumb_radio_vvf_361_WZYjQt3.jpeg HTTP/1.1" 304 0
+[16/Feb/2026 15:55:39] "GET /api/galleria/?page=1&category__name=AEROPORTUALI HTTP/1.1" 200 2783
+[16/Feb/2026 15:55:39] "GET /media/galleria/thumbnails/2026/02/14/thumb_mezzi_aeroportuali_924.jpeg HTTP/1.1" 304 0
+[16/Feb/2026 15:55:39] "GET /media/galleria/thumbnails/2026/02/14/thumb_mezzi_aeroportuali_923.jpg HTTP/1.1" 304 0
+[16/Feb/2026 15:55:39] "GET /media/galleria/thumbnails/2026/02/14/thumb_mezzi_e_attrezzature_aeroportuali_922.jpg HTTP/1.1" 304 0
+[16/Feb/2026 15:55:39] "GET /media/galleria/thumbnails/2026/02/14/thumb_mezzi_aeroportuali_921.jpg HTTP/1.1" 304 0
+[16/Feb/2026 15:55:39] "GET /media/galleria/thumbnails/2026/02/14/thumb_aereoportuali_124_ZfAWewe.jpg HTTP/1.1" 304 0
+/var/www/html/backend/shared/models.py changed, reloading.
+/var/www/html/backend/.venv/lib/python3.11/site-packages/django/db/models/base.py:366: RuntimeWarning: Model 'shared.comune' was already registered. Reloading models is not advised as it can lead to inconsistencies, most notably with related models.
+  new_class._meta.apps.register_model(new_class._meta.app_label, new_class)
+Watching for file changes with StatReloader
+/var/www/html/backend/shared/models.py changed, reloading.
+/var/www/html/backend/.venv/lib/python3.11/site-packages/django/db/models/base.py:366: RuntimeWarning: Model 'shared.comune' was already registered. Reloading models is not advised as it can lead to inconsistencies, most notably with related models.
+  new_class._meta.apps.register_model(new_class._meta.app_label, new_class)
+Watching for file changes with StatReloader
+/var/www/html/backend/shared/models.py changed, reloading.
+Watching for file changes with StatReloader
+/var/www/html/backend/shared/models.py changed, reloading.
+Watching for file changes with StatReloader
+/var/www/html/backend/shared/models.py changed, reloading.
+Watching for file changes with StatReloader
+[16/Feb/2026 16:58:33] "GET /api/galleria/categorie/ HTTP/1.1" 200 1004
+[16/Feb/2026 16:58:33] "GET /api/galleria/?page=1&category__name=AEROPORTUALI HTTP/1.1" 200 2783
+/var/www/html/backend/shared/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/var/www/html/backend/shared/admin.py changed, reloading.
+Watching for file changes with StatReloader
+[16/Feb/2026 17:04:23] "GET /admin/shared/regione/ HTTP/1.1" 200 19768
+[16/Feb/2026 17:04:23] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[16/Feb/2026 17:04:23] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[16/Feb/2026 17:04:23] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[16/Feb/2026 17:04:23] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[16/Feb/2026 17:04:23] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[16/Feb/2026 17:04:23] "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+[16/Feb/2026 17:04:23] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[16/Feb/2026 17:04:23] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[16/Feb/2026 17:04:23] "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+[16/Feb/2026 17:04:23] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[16/Feb/2026 17:04:23] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[16/Feb/2026 17:04:23] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[16/Feb/2026 17:04:23] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[16/Feb/2026 17:04:23] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[16/Feb/2026 17:04:23] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[16/Feb/2026 17:04:23] "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+[16/Feb/2026 17:04:23] "GET /admin/jsi18n/ HTTP/1.1" 200 8182
+[16/Feb/2026 17:04:23] "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+[16/Feb/2026 17:04:23] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[16/Feb/2026 17:04:23] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[16/Feb/2026 17:04:23] "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+[16/Feb/2026 17:04:25] "GET /admin/shared/mezzo/ HTTP/1.1" 200 11517
+[16/Feb/2026 17:04:25] "GET /admin/jsi18n/ HTTP/1.1" 200 8182
+[16/Feb/2026 17:10:12] "GET /admin/shared/mezzo/ HTTP/1.1" 200 13442
+[16/Feb/2026 17:10:12] "GET /admin/jsi18n/ HTTP/1.1" 200 8182
+[16/Feb/2026 17:10:14] "GET /admin/shared/mezzo/1/change/ HTTP/1.1" 200 13675
+[16/Feb/2026 17:10:14] "GET /admin/jsi18n/ HTTP/1.1" 200 8182
+[16/Feb/2026 17:10:14] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+[16/Feb/2026 17:10:14] "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+[16/Feb/2026 17:10:14] "GET /static/admin/css/forms.css HTTP/1.1" 200 8794
+[16/Feb/2026 17:10:14] "GET /static/admin/css/widgets.css HTTP/1.1" 200 11564
+[16/Feb/2026 17:11:57] "GET /admin/shared/mezzo/ HTTP/1.1" 200 13442
+[16/Feb/2026 17:11:57] "GET /admin/jsi18n/ HTTP/1.1" 200 8182
+[16/Feb/2026 17:11:59] "GET /admin/shared/mezzo/1/change/ HTTP/1.1" 200 13675
+[16/Feb/2026 17:12:00] "GET /admin/jsi18n/ HTTP/1.1" 200 8182
+[16/Feb/2026 17:18:03] "GET /admin/shared/mezzo/ HTTP/1.1" 200 53173
+[16/Feb/2026 17:18:03] "GET /admin/jsi18n/ HTTP/1.1" 200 8182
+[16/Feb/2026 17:18:13] "GET /admin/shared/mezzo/?p=2 HTTP/1.1" 200 55213
+[16/Feb/2026 17:18:13] "GET /admin/jsi18n/ HTTP/1.1" 200 8182
+/var/www/html/backend/shared/models.py changed, reloading.
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.11/threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/management/commands/runserver.py", line 126, in inner_run
+    autoreload.raise_last_exception()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 86, in raise_last_exception
+    raise _exception[1]
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/management/__init__.py", line 394, in execute
+    autoreload.check_errors(django.setup)()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/apps/registry.py", line 116, in populate
+    app_config.import_models()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/apps/config.py", line 269, in import_models
+    self.models_module = import_module(models_module_name)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1004, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/var/www/html/backend/shared/models.py", line 83
+    
+    ^
+IndentationError: expected an indented block after function definition on line 81
+/var/www/html/backend/shared/models.py changed, reloading.
+Watching for file changes with StatReloader
+/var/www/html/backend/shared/models.py changed, reloading.
+Watching for file changes with StatReloader
+/var/www/html/backend/shared/models.py changed, reloading.
+Watching for file changes with StatReloader
+/var/www/html/backend/shared/models.py changed, reloading.
+Watching for file changes with StatReloader
+/var/www/html/backend/shared/admin.py changed, reloading.
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.11/threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/management/commands/runserver.py", line 126, in inner_run
+    autoreload.raise_last_exception()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 86, in raise_last_exception
+    raise _exception[1]
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/management/__init__.py", line 394, in execute
+    autoreload.check_errors(django.setup)()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/apps/registry.py", line 124, in populate
+    app_config.ready()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/contrib/admin/apps.py", line 27, in ready
+    self.module.autodiscover()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/contrib/admin/__init__.py", line 52, in autodiscover
+    autodiscover_modules("admin", register_to=site)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/module_loading.py", line 58, in autodiscover_modules
+    import_module("%s.%s" % (app_config.name, module_to_search))
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/var/www/html/backend/shared/admin.py", line 52, in <module>
+    @admin.register(TipologiaIntervento)
+                    ^^^^^^^^^^^^^^^^^^^
+NameError: name 'TipologiaIntervento' is not defined
+/var/www/html/backend/shared/admin.py changed, reloading.
+Watching for file changes with StatReloader
+[16/Feb/2026 17:29:16] "GET /admin/shared/mezzo/?p=2 HTTP/1.1" 200 55714
+[16/Feb/2026 17:29:16] "GET /admin/jsi18n/ HTTP/1.1" 200 8182
+[16/Feb/2026 17:29:18] "GET /admin/shared/tipologiaintervento/ HTTP/1.1" 200 33562
+[16/Feb/2026 17:29:18] "GET /admin/jsi18n/ HTTP/1.1" 200 8182
+[16/Feb/2026 17:29:23] "GET /admin/shared/tipologiaintervento/?p=2 HTTP/1.1" 200 35540
+[16/Feb/2026 17:29:23] "GET /admin/jsi18n/ HTTP/1.1" 200 8182
+[16/Feb/2026 17:29:28] "GET /admin/shared/tipologiaintervento/?p=3 HTTP/1.1" 200 23617
+[16/Feb/2026 17:29:28] "GET /admin/jsi18n/ HTTP/1.1" 200 8182
+[16/Feb/2026 17:53:38] "GET /api/galleria/categorie/ HTTP/1.1" 200 1004
+[16/Feb/2026 17:53:40] "GET /api/galleria/?page=1&category__name=AEROPORTUALI HTTP/1.1" 200 2783
+[16/Feb/2026 18:14:46] "GET /api/galleria/?page=1&category__name=AEROPORTUALI HTTP/1.1" 200 2783
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.11/threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/management/commands/runserver.py", line 134, in inner_run
+    self.check(display_num_errors=True)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/management/base.py", line 563, in check
+    raise SystemCheckError(msg)
+django.core.management.base.SystemCheckError: SystemCheckError: System check identified some issues:
+
+ERRORS:
+?: (4_0.E001) As of Django 4.0, the values in the CSRF_TRUSTED_ORIGINS setting must start with a scheme (usually http:// or https://) but found MacBook-Pro-M1.local. See the release notes for details.
+?: (corsheaders.E013) Origin "'https://MacBook-di-Nome.local:8443'" in CORS_ALLOWED_ORIGINS is missing scheme or netloc
+	HINT: Add a scheme (e.g. https://) or netloc (e.g. example.com).
+
+System check identified 2 issues (0 silenced).
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+[16/Feb/2026 18:46:14] "GET / HTTP/1.1" 404 2798
+[16/Feb/2026 18:46:20] "GET /admin/ HTTP/1.1" 200 14912
+[16/Feb/2026 18:46:20] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[16/Feb/2026 18:46:20] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[16/Feb/2026 18:46:20] "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+[16/Feb/2026 18:46:20] "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+[16/Feb/2026 18:46:20] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[16/Feb/2026 18:46:20] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[16/Feb/2026 18:46:20] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+[16/Feb/2026 18:46:20] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[16/Feb/2026 18:46:20] "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+[16/Feb/2026 18:46:20] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[16/Feb/2026 18:46:23] "GET /admin/shared/mezzo/ HTTP/1.1" 200 53674
+[16/Feb/2026 18:46:23] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[16/Feb/2026 18:46:23] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[16/Feb/2026 18:46:23] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[16/Feb/2026 18:46:23] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[16/Feb/2026 18:46:23] "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+[16/Feb/2026 18:46:23] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[16/Feb/2026 18:46:23] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[16/Feb/2026 18:46:23] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[16/Feb/2026 18:46:23] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[16/Feb/2026 18:46:23] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[16/Feb/2026 18:46:23] "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+[16/Feb/2026 18:46:23] "GET /admin/jsi18n/ HTTP/1.1" 200 8182
+[16/Feb/2026 18:46:23] "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+[16/Feb/2026 18:46:23] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+/var/www/html/backend/shared/models.py changed, reloading.
+Watching for file changes with StatReloader
+/var/www/html/backend/shared/models.py changed, reloading.
+Watching for file changes with StatReloader
+/var/www/html/backend/shared/models.py changed, reloading.
+Watching for file changes with StatReloader
+/var/www/html/backend/shared/admin.py changed, reloading.
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.11/threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/management/commands/runserver.py", line 126, in inner_run
+    autoreload.raise_last_exception()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 86, in raise_last_exception
+    raise _exception[1]
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/management/__init__.py", line 394, in execute
+    autoreload.check_errors(django.setup)()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/apps/registry.py", line 124, in populate
+    app_config.ready()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/contrib/admin/apps.py", line 27, in ready
+    self.module.autodiscover()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/contrib/admin/__init__.py", line 52, in autodiscover
+    autodiscover_modules("admin", register_to=site)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/module_loading.py", line 58, in autodiscover_modules
+    import_module("%s.%s" % (app_config.name, module_to_search))
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/var/www/html/backend/shared/admin.py", line 73, in <module>
+    @admin.register(Tag)
+                    ^^^
+NameError: name 'Tag' is not defined
+/var/www/html/backend/shared/admin.py changed, reloading.
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.11/threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/management/commands/runserver.py", line 126, in inner_run
+    autoreload.raise_last_exception()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 86, in raise_last_exception
+    raise _exception[1]
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/management/__init__.py", line 394, in execute
+    autoreload.check_errors(django.setup)()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/apps/registry.py", line 124, in populate
+    app_config.ready()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/contrib/admin/apps.py", line 27, in ready
+    self.module.autodiscover()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/contrib/admin/__init__.py", line 52, in autodiscover
+    autodiscover_modules("admin", register_to=site)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/module_loading.py", line 58, in autodiscover_modules
+    import_module("%s.%s" % (app_config.name, module_to_search))
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/var/www/html/backend/shared/admin.py", line 73, in <module>
+    @admin.register(Tag)
+                    ^^^
+NameError: name 'Tag' is not defined
+/var/www/html/backend/shared/admin.py changed, reloading.
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.11/threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/management/commands/runserver.py", line 126, in inner_run
+    autoreload.raise_last_exception()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 86, in raise_last_exception
+    raise _exception[1]
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/management/__init__.py", line 394, in execute
+    autoreload.check_errors(django.setup)()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/apps/registry.py", line 124, in populate
+    app_config.ready()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/contrib/admin/apps.py", line 27, in ready
+    self.module.autodiscover()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/contrib/admin/__init__.py", line 52, in autodiscover
+    autodiscover_modules("admin", register_to=site)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/module_loading.py", line 58, in autodiscover_modules
+    import_module("%s.%s" % (app_config.name, module_to_search))
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/var/www/html/backend/shared/admin.py", line 3, in <module>
+    from .models import Regione, Provincia, Comune, Mezzo, TipologiaIntervento, Tass
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ImportError: cannot import name 'Tas' from 'shared.models' (/var/www/html/backend/shared/models.py)
+/var/www/html/backend/shared/admin.py changed, reloading.
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.11/threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/management/commands/runserver.py", line 126, in inner_run
+    autoreload.raise_last_exception()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 86, in raise_last_exception
+    raise _exception[1]
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/management/__init__.py", line 394, in execute
+    autoreload.check_errors(django.setup)()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/apps/registry.py", line 124, in populate
+    app_config.ready()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/contrib/admin/apps.py", line 27, in ready
+    self.module.autodiscover()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/contrib/admin/__init__.py", line 52, in autodiscover
+    autodiscover_modules("admin", register_to=site)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/module_loading.py", line 58, in autodiscover_modules
+    import_module("%s.%s" % (app_config.name, module_to_search))
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/var/www/html/backend/shared/admin.py", line 3, in <module>
+    from .models import Regione, Provincia, Comune, Mezzo, TipologiaIntervento, Ta
+ImportError: cannot import name 'Ta' from 'shared.models' (/var/www/html/backend/shared/models.py)
+/var/www/html/backend/shared/admin.py changed, reloading.
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.11/threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/management/commands/runserver.py", line 126, in inner_run
+    autoreload.raise_last_exception()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 86, in raise_last_exception
+    raise _exception[1]
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/management/__init__.py", line 394, in execute
+    autoreload.check_errors(django.setup)()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/apps/registry.py", line 124, in populate
+    app_config.ready()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/contrib/admin/apps.py", line 27, in ready
+    self.module.autodiscover()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/contrib/admin/__init__.py", line 52, in autodiscover
+    autodiscover_modules("admin", register_to=site)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/module_loading.py", line 58, in autodiscover_modules
+    import_module("%s.%s" % (app_config.name, module_to_search))
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/var/www/html/backend/shared/admin.py", line 73, in <module>
+    @admin.register(Tag)
+                    ^^^
+NameError: name 'Tag' is not defined. Did you mean: 'Tags'?
+/var/www/html/backend/shared/admin.py changed, reloading.
+Watching for file changes with StatReloader
+[16/Feb/2026 18:54:16] "GET /admin/shared/mezzo/ HTTP/1.1" 200 54084
+[16/Feb/2026 18:54:16] "GET /admin/jsi18n/ HTTP/1.1" 200 8182
+[16/Feb/2026 18:54:46] "GET /admin/shared/tags/ HTTP/1.1" 200 12418
+[16/Feb/2026 18:54:46] "GET /admin/jsi18n/ HTTP/1.1" 200 8182
+[16/Feb/2026 19:16:35] "GET /admin/shared/tags/ HTTP/1.1" 200 47671
+[16/Feb/2026 19:16:35] "GET /admin/jsi18n/ HTTP/1.1" 200 8182
+/var/www/html/backend/shared/models.py changed, reloading.
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.11/threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/management/commands/runserver.py", line 126, in inner_run
+    autoreload.raise_last_exception()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 86, in raise_last_exception
+    raise _exception[1]
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/management/__init__.py", line 394, in execute
+    autoreload.check_errors(django.setup)()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/apps/registry.py", line 116, in populate
+    app_config.import_models()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/apps/config.py", line 269, in import_models
+    self.models_module = import_module(models_module_name)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/var/www/html/backend/shared/models.py", line 119, in <module>
+    ù
+NameError: name 'ù' is not defined
+/var/www/html/backend/shared/models.py changed, reloading.
+Watching for file changes with StatReloader
+/var/www/html/backend/shared/admin.py changed, reloading.
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.11/threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/management/commands/runserver.py", line 126, in inner_run
+    autoreload.raise_last_exception()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 86, in raise_last_exception
+    raise _exception[1]
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/management/__init__.py", line 394, in execute
+    autoreload.check_errors(django.setup)()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/apps/registry.py", line 124, in populate
+    app_config.ready()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/contrib/admin/apps.py", line 27, in ready
+    self.module.autodiscover()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/contrib/admin/__init__.py", line 52, in autodiscover
+    autodiscover_modules("admin", register_to=site)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/module_loading.py", line 58, in autodiscover_modules
+    import_module("%s.%s" % (app_config.name, module_to_search))
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/var/www/html/backend/shared/admin.py", line 81, in <module>
+    @admin.register(Specializzazione)
+                    ^^^^^^^^^^^^^^^^
+NameError: name 'Specializzazione' is not defined
+/var/www/html/backend/shared/admin.py changed, reloading.
+Watching for file changes with StatReloader
+[16/Feb/2026 19:35:07] "GET /admin/shared/tags/ HTTP/1.1" 200 48153
+[16/Feb/2026 19:35:07] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[16/Feb/2026 19:35:07] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[16/Feb/2026 19:35:07] "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+[16/Feb/2026 19:35:07] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[16/Feb/2026 19:35:07] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[16/Feb/2026 19:35:07] "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+[16/Feb/2026 19:35:07] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[16/Feb/2026 19:35:07] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[16/Feb/2026 19:35:07] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[16/Feb/2026 19:35:07] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[16/Feb/2026 19:35:07] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[16/Feb/2026 19:35:07] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[16/Feb/2026 19:35:07] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[16/Feb/2026 19:35:07] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[16/Feb/2026 19:35:07] "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+[16/Feb/2026 19:35:07] "GET /admin/jsi18n/ HTTP/1.1" 200 8182
+[16/Feb/2026 19:35:08] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[16/Feb/2026 19:35:08] "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+[16/Feb/2026 19:35:08] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[16/Feb/2026 19:35:08] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[16/Feb/2026 19:35:08] "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+[16/Feb/2026 19:35:09] "GET /admin/shared/specializzazione/ HTTP/1.1" 200 48084
+[16/Feb/2026 19:35:09] "GET /admin/jsi18n/ HTTP/1.1" 200 8182
+[16/Feb/2026 19:35:09] "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+[16/Feb/2026 19:35:12] "GET /admin/shared/specializzazione/18/change/ HTTP/1.1" 200 24827
+[16/Feb/2026 19:35:12] "GET /static/admin/js/inlines.js HTTP/1.1" 200 15526
+[16/Feb/2026 19:35:12] "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+[16/Feb/2026 19:35:12] "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+[16/Feb/2026 19:35:12] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+[16/Feb/2026 19:35:12] "GET /admin/jsi18n/ HTTP/1.1" 200 8182
+[16/Feb/2026 19:35:12] "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+[16/Feb/2026 19:35:12] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[16/Feb/2026 19:35:12] "GET /static/admin/img/inline-delete.svg HTTP/1.1" 200 560
+[16/Feb/2026 19:35:18] "GET /admin/shared/specializzazione/ HTTP/1.1" 200 48084
+[16/Feb/2026 19:35:28] "GET /admin/shared/specializzazione/20/change/ HTTP/1.1" 200 24887
+[16/Feb/2026 19:35:28] "GET /admin/jsi18n/ HTTP/1.1" 200 8182
+[16/Feb/2026 19:35:36] "GET /admin/shared/comune/ HTTP/1.1" 200 68848
+[16/Feb/2026 19:35:36] "GET /admin/jsi18n/ HTTP/1.1" 200 8182
+[16/Feb/2026 19:35:37] "GET /admin/shared/mezzo/ HTTP/1.1" 200 54566
+[16/Feb/2026 19:35:37] "GET /admin/jsi18n/ HTTP/1.1" 200 8182
+[16/Feb/2026 19:35:37] "GET /admin/shared/provincia/ HTTP/1.1" 200 57844
+[16/Feb/2026 19:35:37] "GET /admin/jsi18n/ HTTP/1.1" 200 8182
+[16/Feb/2026 19:35:39] "GET /admin/shared/specializzazione/ HTTP/1.1" 200 48084
+[16/Feb/2026 19:35:39] "GET /admin/jsi18n/ HTTP/1.1" 200 8182
+/var/www/html/backend/shared/admin.py changed, reloading.
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.11/threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/management/commands/runserver.py", line 126, in inner_run
+    autoreload.raise_last_exception()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 86, in raise_last_exception
+    raise _exception[1]
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/management/__init__.py", line 394, in execute
+    autoreload.check_errors(django.setup)()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/apps/registry.py", line 124, in populate
+    app_config.ready()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/contrib/admin/apps.py", line 27, in ready
+    self.module.autodiscover()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/contrib/admin/__init__.py", line 52, in autodiscover
+    autodiscover_modules("admin", register_to=site)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/module_loading.py", line 58, in autodiscover_modules
+    import_module("%s.%s" % (app_config.name, module_to_search))
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/var/www/html/backend/shared/admin.py", line 109, in <module>
+    class Etichetta(models.Model):
+                    ^^^^^^
+NameError: name 'models' is not defined
+/var/www/html/backend/shared/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/var/www/html/backend/shared/models.py changed, reloading.
+Watching for file changes with StatReloader
+/var/www/html/backend/shared/models.py changed, reloading.
+Watching for file changes with StatReloader
+/var/www/html/backend/shared/admin.py changed, reloading.
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.11/threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/management/commands/runserver.py", line 126, in inner_run
+    autoreload.raise_last_exception()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 86, in raise_last_exception
+    raise _exception[1]
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/management/__init__.py", line 394, in execute
+    autoreload.check_errors(django.setup)()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/apps/registry.py", line 124, in populate
+    app_config.ready()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/contrib/admin/apps.py", line 27, in ready
+    self.module.autodiscover()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/contrib/admin/__init__.py", line 52, in autodiscover
+    autodiscover_modules("admin", register_to=site)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/module_loading.py", line 58, in autodiscover_modules
+    import_module("%s.%s" % (app_config.name, module_to_search))
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/var/www/html/backend/shared/admin.py", line 109, in <module>
+    @admin.register(Etichetta)
+                    ^^^^^^^^^
+NameError: name 'Etichetta' is not defined
+/var/www/html/backend/shared/admin.py changed, reloading.
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.11/threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/management/commands/runserver.py", line 126, in inner_run
+    autoreload.raise_last_exception()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 86, in raise_last_exception
+    raise _exception[1]
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/management/__init__.py", line 394, in execute
+    autoreload.check_errors(django.setup)()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/apps/registry.py", line 124, in populate
+    app_config.ready()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/contrib/admin/apps.py", line 27, in ready
+    self.module.autodiscover()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/contrib/admin/__init__.py", line 52, in autodiscover
+    autodiscover_modules("admin", register_to=site)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/module_loading.py", line 58, in autodiscover_modules
+    import_module("%s.%s" % (app_config.name, module_to_search))
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1004, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/var/www/html/backend/shared/admin.py", line 3
+    from .models import Regione, Provincia, Comune, Mezzo, TipologiaIntervento, Tags, Specializzazione, 
+                                                                                                        ^
+SyntaxError: trailing comma not allowed without surrounding parentheses
+/var/www/html/backend/shared/admin.py changed, reloading.
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.11/threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/management/commands/runserver.py", line 126, in inner_run
+    autoreload.raise_last_exception()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 86, in raise_last_exception
+    raise _exception[1]
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/management/__init__.py", line 394, in execute
+    autoreload.check_errors(django.setup)()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/apps/registry.py", line 124, in populate
+    app_config.ready()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/contrib/admin/apps.py", line 27, in ready
+    self.module.autodiscover()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/contrib/admin/__init__.py", line 52, in autodiscover
+    autodiscover_modules("admin", register_to=site)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/module_loading.py", line 58, in autodiscover_modules
+    import_module("%s.%s" % (app_config.name, module_to_search))
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/var/www/html/backend/shared/admin.py", line 3, in <module>
+    from .models import Regione, Provincia, Comune, Mezzo, TipologiaIntervento, Tags, Specializzazione, Etichetta
+ImportError: cannot import name 'Etichetta' from 'shared.models' (/var/www/html/backend/shared/models.py)
+/var/www/html/backend/shared/admin.py changed, reloading.
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.11/threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/management/commands/runserver.py", line 126, in inner_run
+    autoreload.raise_last_exception()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 86, in raise_last_exception
+    raise _exception[1]
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/management/__init__.py", line 394, in execute
+    autoreload.check_errors(django.setup)()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/apps/registry.py", line 124, in populate
+    app_config.ready()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/contrib/admin/apps.py", line 27, in ready
+    self.module.autodiscover()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/contrib/admin/__init__.py", line 52, in autodiscover
+    autodiscover_modules("admin", register_to=site)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/module_loading.py", line 58, in autodiscover_modules
+    import_module("%s.%s" % (app_config.name, module_to_search))
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/var/www/html/backend/shared/admin.py", line 3, in <module>
+    from .models import Regione, Provincia, Comune, Mezzo, TipologiaIntervento, Tags, Specializzazione, Etichetta
+ImportError: cannot import name 'Etichetta' from 'shared.models' (/var/www/html/backend/shared/models.py)
+/var/www/html/backend/shared/admin.py changed, reloading.
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.11/threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/management/commands/runserver.py", line 126, in inner_run
+    autoreload.raise_last_exception()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 86, in raise_last_exception
+    raise _exception[1]
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/management/__init__.py", line 394, in execute
+    autoreload.check_errors(django.setup)()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/apps/registry.py", line 124, in populate
+    app_config.ready()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/contrib/admin/apps.py", line 27, in ready
+    self.module.autodiscover()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/contrib/admin/__init__.py", line 52, in autodiscover
+    autodiscover_modules("admin", register_to=site)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/module_loading.py", line 58, in autodiscover_modules
+    import_module("%s.%s" % (app_config.name, module_to_search))
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/var/www/html/backend/shared/admin.py", line 109, in <module>
+    @admin.register(Etichetta)
+                    ^^^^^^^^^
+NameError: name 'Etichetta' is not defined. Did you mean: 'Etichette'?
+/var/www/html/backend/shared/admin.py changed, reloading.
+Watching for file changes with StatReloader
+[16/Feb/2026 21:01:35] "GET /admin/shared/specializzazione/ HTTP/1.1" 200 48524
+[16/Feb/2026 21:01:35] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[16/Feb/2026 21:01:35] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[16/Feb/2026 21:01:35] "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+[16/Feb/2026 21:01:35] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[16/Feb/2026 21:01:35] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[16/Feb/2026 21:01:35] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[16/Feb/2026 21:01:35] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[16/Feb/2026 21:01:35] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[16/Feb/2026 21:01:35] "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+[16/Feb/2026 21:01:35] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[16/Feb/2026 21:01:35] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[16/Feb/2026 21:01:35] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[16/Feb/2026 21:01:35] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[16/Feb/2026 21:01:35] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[16/Feb/2026 21:01:35] "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+[16/Feb/2026 21:01:35] "GET /admin/jsi18n/ HTTP/1.1" 200 8182
+[16/Feb/2026 21:01:35] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[16/Feb/2026 21:01:35] "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+[16/Feb/2026 21:01:35] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[16/Feb/2026 21:01:35] "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+[16/Feb/2026 21:01:35] "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+[16/Feb/2026 21:01:35] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[16/Feb/2026 21:01:36] "GET /admin/shared/etichette/ HTTP/1.1" 200 47802
+[16/Feb/2026 21:01:36] "GET /admin/jsi18n/ HTTP/1.1" 200 8182
+[16/Feb/2026 21:03:08] "GET /admin/shared/etichette/?o=1 HTTP/1.1" 200 50729
+[16/Feb/2026 21:03:08] "GET /admin/jsi18n/ HTTP/1.1" 200 8182
+[16/Feb/2026 21:15:48] "GET /api/galleria/categorie/ HTTP/1.1" 200 1004
+[16/Feb/2026 21:15:49] "GET /api/galleria/?page=1 HTTP/1.1" 200 12856
+[16/Feb/2026 21:15:49] "GET /media/galleria/thumbnails/2026/02/14/thumb_addestramento_siacs_2066.JPG HTTP/1.1" 304 0
+[16/Feb/2026 21:15:49] "GET /media/galleria/thumbnails/2026/02/14/thumb_addestramento_siacs_2063.JPG HTTP/1.1" 304 0
+[16/Feb/2026 21:15:49] "GET /media/galleria/thumbnails/2026/02/14/thumb_addestramento_siacs_2061.JPG HTTP/1.1" 304 0
+[16/Feb/2026 21:15:49] "GET /media/galleria/thumbnails/2026/02/14/thumb_addestramento_siacs_2065.JPG HTTP/1.1" 304 0
+[16/Feb/2026 21:15:49] "GET /media/galleria/thumbnails/2026/02/14/thumb_addestramento_siacs_2064.JPG HTTP/1.1" 304 0
+[16/Feb/2026 21:15:49] "GET /media/galleria/thumbnails/2026/02/14/thumb_addestramento_siacs_2067.JPG HTTP/1.1" 304 0
+[16/Feb/2026 21:15:49] "GET /media/galleria/thumbnails/2026/02/14/thumb_addestramento_siacs_2062.JPG HTTP/1.1" 304 0
+[16/Feb/2026 21:15:49] "GET /media/galleria/thumbnails/2026/02/14/thumb_addestramento_siacs_2068.JPG HTTP/1.1" 304 0
+[16/Feb/2026 21:15:49] "GET /media/galleria/thumbnails/2026/02/14/thumb_addestramento_siacs_2057.JPG HTTP/1.1" 304 0
+[16/Feb/2026 21:15:49] "GET /media/galleria/thumbnails/2026/02/14/thumb_addestramento_siacs_2060.JPG HTTP/1.1" 304 0
+[16/Feb/2026 21:15:49] "GET /media/galleria/thumbnails/2026/02/14/thumb_addestramento_siacs_2054.JPG HTTP/1.1" 304 0
+[16/Feb/2026 21:15:49] "GET /media/galleria/thumbnails/2026/02/14/thumb_addestramento_siacs_2059.JPG HTTP/1.1" 304 0
+/var/www/html/backend/core/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/var/www/html/backend/core/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.11/threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/management/commands/runserver.py", line 126, in inner_run
+    autoreload.raise_last_exception()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 86, in raise_last_exception
+    raise _exception[1]
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/management/__init__.py", line 394, in execute
+    autoreload.check_errors(django.setup)()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/apps/registry.py", line 116, in populate
+    app_config.import_models()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/apps/config.py", line 269, in import_models
+    self.models_module = import_module(models_module_name)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/var/www/html/backend/storia/models.py", line 4, in <module>
+    class Storia(models.Model):
+  File "/var/www/html/backend/storia/models.py", line 23, in Storia
+    posizione = models.PointField(srid=4326, null=True, blank=True)
+                ^^^^^^^^^^^^^^^^^
+AttributeError: module 'django.db.models' has no attribute 'PointField'
+/var/www/html/backend/core/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.11/threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/management/commands/runserver.py", line 126, in inner_run
+    autoreload.raise_last_exception()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 86, in raise_last_exception
+    raise _exception[1]
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/management/__init__.py", line 394, in execute
+    autoreload.check_errors(django.setup)()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/apps/registry.py", line 116, in populate
+    app_config.import_models()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/apps/config.py", line 269, in import_models
+    self.models_module = import_module(models_module_name)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/var/www/html/backend/storia/models.py", line 4, in <module>
+    class Storia(models.Model):
+  File "/var/www/html/backend/storia/models.py", line 23, in Storia
+    posizione = models.PointField(srid=4326, null=True, blank=True)
+                ^^^^^^^^^^^^^^^^^
+AttributeError: module 'django.db.models' has no attribute 'PointField'
+/var/www/html/backend/core/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.11/threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/management/commands/runserver.py", line 126, in inner_run
+    autoreload.raise_last_exception()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 86, in raise_last_exception
+    raise _exception[1]
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/management/__init__.py", line 394, in execute
+    autoreload.check_errors(django.setup)()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/apps/registry.py", line 116, in populate
+    app_config.import_models()
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/apps/config.py", line 269, in import_models
+    self.models_module = import_module(models_module_name)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/var/www/html/backend/storia/models.py", line 4, in <module>
+    class Storia(models.Model):
+  File "/var/www/html/backend/storia/models.py", line 23, in Storia
+    posizione = models.PointField(srid=4326, null=True, blank=True)
+                ^^^^^^^^^^^^^^^^^
+AttributeError: module 'django.db.models' has no attribute 'PointField'
+/var/www/html/backend/storia/models.py changed, reloading.
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.11/threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/management/commands/runserver.py", line 134, in inner_run
+    self.check(display_num_errors=True)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/management/base.py", line 563, in check
+    raise SystemCheckError(msg)
+django.core.management.base.SystemCheckError: SystemCheckError: System check identified some issues:
+
+ERRORS:
+storia.Storia.comune: (fields.E300) Field defines a relation with model 'Comune', which is either not installed, or is abstract.
+storia.Storia.comune: (fields.E307) The field storia.Storia.comune was declared with a lazy reference to 'storia.comune', but app 'storia' doesn't provide model 'comune'.
+storia.Storia.etichette: (fields.E300) Field defines a relation with model 'Etichette', which is either not installed, or is abstract.
+storia.Storia.etichette: (fields.E307) The field storia.Storia.etichette was declared with a lazy reference to 'storia.etichette', but app 'storia' doesn't provide model 'etichette'.
+storia.Storia_etichette.etichette: (fields.E307) The field storia.Storia_etichette.etichette was declared with a lazy reference to 'storia.etichette', but app 'storia' doesn't provide model 'etichette'.
+
+System check identified 5 issues (0 silenced).
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.11/threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/management/commands/runserver.py", line 134, in inner_run
+    self.check(display_num_errors=True)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/management/base.py", line 563, in check
+    raise SystemCheckError(msg)
+django.core.management.base.SystemCheckError: SystemCheckError: System check identified some issues:
+
+ERRORS:
+storia.Storia.comune: (fields.E300) Field defines a relation with model 'Comune', which is either not installed, or is abstract.
+storia.Storia.comune: (fields.E307) The field storia.Storia.comune was declared with a lazy reference to 'storia.comune', but app 'storia' doesn't provide model 'comune'.
+storia.Storia.etichette: (fields.E300) Field defines a relation with model 'Etichette', which is either not installed, or is abstract.
+storia.Storia.etichette: (fields.E307) The field storia.Storia.etichette was declared with a lazy reference to 'storia.etichette', but app 'storia' doesn't provide model 'etichette'.
+storia.Storia_etichette.etichette: (fields.E307) The field storia.Storia_etichette.etichette was declared with a lazy reference to 'storia.etichette', but app 'storia' doesn't provide model 'etichette'.
+
+System check identified 5 issues (0 silenced).
+/var/www/html/backend/storia/models.py changed, reloading.
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.11/threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/management/commands/runserver.py", line 134, in inner_run
+    self.check(display_num_errors=True)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/management/base.py", line 563, in check
+    raise SystemCheckError(msg)
+django.core.management.base.SystemCheckError: SystemCheckError: System check identified some issues:
+
+ERRORS:
+storia.Storia.comune: (fields.E300) Field defines a relation with model 'Comune', which is either not installed, or is abstract.
+storia.Storia.comune: (fields.E307) The field storia.Storia.comune was declared with a lazy reference to 'storia.comune', but app 'storia' doesn't provide model 'comune'.
+
+System check identified 2 issues (0 silenced).
+/var/www/html/backend/storia/models.py changed, reloading.
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.11/threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/management/commands/runserver.py", line 134, in inner_run
+    self.check(display_num_errors=True)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/management/base.py", line 563, in check
+    raise SystemCheckError(msg)
+django.core.management.base.SystemCheckError: SystemCheckError: System check identified some issues:
+
+ERRORS:
+storia.Storia.comune: (fields.E300) Field defines a relation with model 'sharedComune', which is either not installed, or is abstract.
+storia.Storia.comune: (fields.E307) The field storia.Storia.comune was declared with a lazy reference to 'storia.sharedcomune', but app 'storia' doesn't provide model 'sharedcomune'.
+
+System check identified 2 issues (0 silenced).
+/var/www/html/backend/storia/models.py changed, reloading.
+Watching for file changes with StatReloader
+[16/Feb/2026 21:35:27] "GET /api/galleria/categorie/ HTTP/1.1" 200 1004
+[16/Feb/2026 21:35:27] "GET /api/galleria/?page=1 HTTP/1.1" 200 12856
+[16/Feb/2026 22:17:51] "GET /admin/shared/comune/ HTTP/1.1" 200 69938
+[16/Feb/2026 22:17:51] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[16/Feb/2026 22:17:51] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[16/Feb/2026 22:17:51] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[16/Feb/2026 22:17:51] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[16/Feb/2026 22:17:51] "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+[16/Feb/2026 22:17:51] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[16/Feb/2026 22:17:51] "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+[16/Feb/2026 22:17:51] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[16/Feb/2026 22:17:51] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[16/Feb/2026 22:17:51] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[16/Feb/2026 22:17:51] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[16/Feb/2026 22:17:51] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[16/Feb/2026 22:17:51] "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+[16/Feb/2026 22:17:51] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[16/Feb/2026 22:17:51] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[16/Feb/2026 22:17:51] "GET /admin/jsi18n/ HTTP/1.1" 200 8182
+[16/Feb/2026 22:17:51] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[16/Feb/2026 22:17:51] "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+[16/Feb/2026 22:17:51] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[16/Feb/2026 22:17:51] "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+[16/Feb/2026 22:17:51] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[16/Feb/2026 22:17:51] "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+[16/Feb/2026 22:18:14] "GET /admin/storia/storia/ HTTP/1.1" 200 20265
+[16/Feb/2026 22:18:14] "GET /admin/jsi18n/ HTTP/1.1" 200 8182
+[16/Feb/2026 22:18:20] "GET /admin/storia/storia/1/change/ HTTP/1.1" 200 429014
+[16/Feb/2026 22:18:20] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+[16/Feb/2026 22:18:20] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+[16/Feb/2026 22:18:20] "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+[16/Feb/2026 22:18:20] "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+[16/Feb/2026 22:18:20] "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+[16/Feb/2026 22:18:20] "GET /static/gis/css/ol3.css HTTP/1.1" 200 773
+[16/Feb/2026 22:18:20] "GET /static/admin/js/calendar.js HTTP/1.1" 200 9141
+[16/Feb/2026 22:18:20] "GET /admin/jsi18n/ HTTP/1.1" 200 8182
+[16/Feb/2026 22:18:20] "GET /static/gis/js/OLMapWidget.js HTTP/1.1" 200 9019
+[16/Feb/2026 22:18:20] "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+[16/Feb/2026 22:18:20] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[16/Feb/2026 22:18:20] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+[16/Feb/2026 22:18:35] "GET /admin/storia/storia/ HTTP/1.1" 200 20265
+[16/Feb/2026 22:18:35] "GET /admin/jsi18n/ HTTP/1.1" 200 8182
+[16/Feb/2026 22:20:05] "GET /admin/storia/storia/ HTTP/1.1" 200 45154
+[16/Feb/2026 22:20:05] "GET /admin/jsi18n/ HTTP/1.1" 200 8182
+[16/Feb/2026 22:20:25] "GET /admin/storia/storia/3/change/ HTTP/1.1" 200 428503
+[16/Feb/2026 22:20:25] "GET /admin/jsi18n/ HTTP/1.1" 200 8182
+[16/Feb/2026 22:40:03] "GET /admin/storia/storia/ HTTP/1.1" 200 45154
+[16/Feb/2026 22:40:03] "GET /admin/jsi18n/ HTTP/1.1" 200 8182
+[16/Feb/2026 22:40:06] "GET /admin/storia/storia/4/change/ HTTP/1.1" 200 430462
+[16/Feb/2026 22:40:06] "GET /admin/jsi18n/ HTTP/1.1" 200 8182
+[16/Feb/2026 22:40:35] "GET /admin/storia/storia/ HTTP/1.1" 200 45154
+[16/Feb/2026 22:40:35] "GET /admin/jsi18n/ HTTP/1.1" 200 8182
+[16/Feb/2026 22:40:40] "GET /admin/storia/storia/11/change/ HTTP/1.1" 200 429688
+[16/Feb/2026 22:40:40] "GET /admin/jsi18n/ HTTP/1.1" 200 8182
+[16/Feb/2026 22:41:12] "GET /admin/storia/storia/ HTTP/1.1" 200 45154
+[16/Feb/2026 22:41:12] "GET /admin/jsi18n/ HTTP/1.1" 200 8182
+[16/Feb/2026 22:42:14] "GET /admin/storia/storia/?o=1.-2 HTTP/1.1" 200 47609
+[16/Feb/2026 22:42:14] "GET /admin/jsi18n/ HTTP/1.1" 200 8182
+[16/Feb/2026 22:42:19] "GET /admin/storia/storia/42/change/?_changelist_filters=o%3D1.-2 HTTP/1.1" 200 429746
+[16/Feb/2026 22:42:19] "GET /admin/jsi18n/ HTTP/1.1" 200 8182
+/var/www/html/backend/core/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/var/www/html/backend/core/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/var/www/html/backend/core/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/var/www/html/backend/storia/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.11/threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/management/commands/runserver.py", line 134, in inner_run
+    self.check(display_num_errors=True)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/management/base.py", line 486, in check
+    all_issues = checks.run_checks(
+                 ^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/checks/registry.py", line 88, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/urls/resolvers.py", line 531, in check
+    for pattern in self.url_patterns:
+                   ^^^^^^^^^^^^^^^^^
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/urls/resolvers.py", line 718, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/urls/resolvers.py", line 711, in urlconf_module
+    return import_module(self.urlconf_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/var/www/html/backend/core/urls.py", line 11, in <module>
+    path('api/storia/', include('storia.urls')),
+                        ^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/urls/conf.py", line 39, in include
+    urlconf_module = import_module(urlconf_module)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/var/www/html/backend/storia/urls.py", line 1, in <module>
+    from .views import VideoViewSet
+ImportError: cannot import name 'VideoViewSet' from 'storia.views' (/var/www/html/backend/storia/views.py)
+/var/www/html/backend/storia/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.11/threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/management/commands/runserver.py", line 134, in inner_run
+    self.check(display_num_errors=True)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/management/base.py", line 486, in check
+    all_issues = checks.run_checks(
+                 ^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/checks/registry.py", line 88, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/urls/resolvers.py", line 531, in check
+    for pattern in self.url_patterns:
+                   ^^^^^^^^^^^^^^^^^
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/urls/resolvers.py", line 718, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/urls/resolvers.py", line 711, in urlconf_module
+    return import_module(self.urlconf_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/var/www/html/backend/core/urls.py", line 11, in <module>
+    path('api/storia/', include('storia.urls')),
+                        ^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/urls/conf.py", line 39, in include
+    urlconf_module = import_module(urlconf_module)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/var/www/html/backend/storia/urls.py", line 16, in <module>
+    router.register(r'', VideoViewSet, basename='video')
+                         ^^^^^^^^^^^^
+NameError: name 'VideoViewSet' is not defined
+/var/www/html/backend/storia/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.11/threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/management/commands/runserver.py", line 134, in inner_run
+    self.check(display_num_errors=True)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/management/base.py", line 486, in check
+    all_issues = checks.run_checks(
+                 ^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/checks/registry.py", line 88, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/urls/resolvers.py", line 531, in check
+    for pattern in self.url_patterns:
+                   ^^^^^^^^^^^^^^^^^
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/urls/resolvers.py", line 718, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/urls/resolvers.py", line 711, in urlconf_module
+    return import_module(self.urlconf_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/var/www/html/backend/core/urls.py", line 11, in <module>
+    path('api/storia/', include('storia.urls')),
+                        ^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/urls/conf.py", line 39, in include
+    urlconf_module = import_module(urlconf_module)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/var/www/html/backend/storia/urls.py", line 16, in <module>
+    router.register(r'', VideoViewSet, basename='video')
+                         ^^^^^^^^^^^^
+NameError: name 'VideoViewSet' is not defined
+/var/www/html/backend/storia/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/var/www/html/backend/storia/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/var/www/html/backend/storia/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/var/www/html/backend/storia/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/var/www/html/backend/storia/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/var/www/html/backend/storia/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/var/www/html/backend/storia/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/var/www/html/backend/core/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/var/www/html/backend/core/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+[16/Feb/2026 23:00:15] "GET /api/galleria/categorie/ HTTP/1.1" 200 1004
+[16/Feb/2026 23:00:15] "GET /api/galleria/?page=1 HTTP/1.1" 200 12856
+[16/Feb/2026 23:00:18] "GET /api/galleria/?page=1&category__name=AEROPORTUALI HTTP/1.1" 200 2783
+[16/Feb/2026 23:00:18] "GET /media/galleria/thumbnails/2026/02/14/thumb_mezzi_e_attrezzature_aeroportuali_922.jpg HTTP/1.1" 304 0
+[16/Feb/2026 23:00:18] "GET /media/galleria/thumbnails/2026/02/14/thumb_aereoportuali_124_ZfAWewe.jpg HTTP/1.1" 304 0
+[16/Feb/2026 23:00:18] "GET /media/galleria/thumbnails/2026/02/14/thumb_mezzi_aeroportuali_924.jpeg HTTP/1.1" 304 0
+[16/Feb/2026 23:00:18] "GET /media/galleria/thumbnails/2026/02/14/thumb_mezzi_aeroportuali_923.jpg HTTP/1.1" 304 0
+[16/Feb/2026 23:00:18] "GET /media/galleria/thumbnails/2026/02/14/thumb_mezzi_aeroportuali_921.jpg HTTP/1.1" 304 0
+[16/Feb/2026 23:00:19] "GET /api/galleria/?page=1&category__name=ATTREZZATURE HTTP/1.1" 200 9014
+[16/Feb/2026 23:00:19] "GET /media/galleria/thumbnails/2026/02/14/thumb_soccorso_a_persona_430_Wp5hsoR.jpg HTTP/1.1" 304 0
+[16/Feb/2026 23:00:19] "GET /media/galleria/thumbnails/2026/02/14/thumb_attrezzatura_nbcr_435_8gqViiC.jpg HTTP/1.1" 304 0
+[16/Feb/2026 23:00:19] "GET /media/galleria/thumbnails/2026/02/14/thumb_radio_vvf_362_Vswu3T2.jpg HTTP/1.1" 304 0
+[16/Feb/2026 23:00:19] "GET /media/galleria/thumbnails/2026/02/14/thumb_caricamento_mezzi_349_ZjvIts1.jpeg HTTP/1.1" 304 0
+[16/Feb/2026 23:00:19] "GET /media/galleria/thumbnails/2026/02/14/thumb_caricamento_mezzi_350_DkARcvb.jpg HTTP/1.1" 304 0
+[16/Feb/2026 23:00:19] "GET /media/galleria/thumbnails/2026/02/14/thumb_nbcr_446_4I0QSkc.jpg HTTP/1.1" 304 0
+[16/Feb/2026 23:00:19] "GET /media/galleria/thumbnails/2026/02/14/thumb_caricamento_mezzi_346_chEzfkp.jpeg HTTP/1.1" 304 0
+[16/Feb/2026 23:00:19] "GET /media/galleria/thumbnails/2026/02/14/thumb_grigri_364_7kr6O52.jpg HTTP/1.1" 304 0
+[16/Feb/2026 23:00:19] "GET /media/galleria/thumbnails/2026/02/14/thumb_caricamento_mezzi_347_PgJG66w.jpeg HTTP/1.1" 304 0
+[16/Feb/2026 23:00:19] "GET /media/galleria/thumbnails/2026/02/14/thumb_caricamento_mezzi_348_Yf07gmE.jpeg HTTP/1.1" 304 0
+[16/Feb/2026 23:00:19] "GET /media/galleria/thumbnails/2026/02/14/thumb_mototroncatrice_358_6ud5usy.jpg HTTP/1.1" 304 0
+[16/Feb/2026 23:00:19] "GET /media/galleria/thumbnails/2026/02/14/thumb_radio_vvf_361_WZYjQt3.jpeg HTTP/1.1" 304 0
+Not Found: /
+[16/Feb/2026 23:00:34] "GET / HTTP/1.1" 404 2952
+[16/Feb/2026 23:00:42] "GET /api/storia HTTP/1.1" 301 0
+[16/Feb/2026 23:00:42] "GET /api/storia/ HTTP/1.1" 200 37563
+[16/Feb/2026 23:00:43] "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+[16/Feb/2026 23:00:43] "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3796
+[16/Feb/2026 23:00:43] "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+[16/Feb/2026 23:00:43] "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+[16/Feb/2026 23:00:43] "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+[16/Feb/2026 23:00:43] "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+[16/Feb/2026 23:00:43] "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3426
+[16/Feb/2026 23:00:43] "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+[16/Feb/2026 23:00:43] "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+[16/Feb/2026 23:00:43] "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+[16/Feb/2026 23:00:43] "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+[16/Feb/2026 23:00:43] "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+[16/Feb/2026 23:00:43] "GET /static/rest_framework/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18028
+[16/Feb/2026 23:01:30] "GET /api/storia/?page=2 HTTP/1.1" 200 36987
+[16/Feb/2026 23:07:01] "GET /api/galleria/?page=1 HTTP/1.1" 200 12856
+[16/Feb/2026 23:07:01] "GET /api/galleria/?page=1 HTTP/1.1" 200 12856
+Not Found: /api/v1/storia/
+Not Found: /api/v1/storia/
+[16/Feb/2026 23:08:06] "GET /api/v1/storia/ HTTP/1.1" 404 4221
+[16/Feb/2026 23:08:06] "GET /api/v1/storia/ HTTP/1.1" 404 4221
+[16/Feb/2026 23:08:24] "GET /api/storia HTTP/1.1" 301 0
+[16/Feb/2026 23:08:24] "GET /api/storia/ HTTP/1.1" 200 37563
+[16/Feb/2026 23:08:41] "GET /api/storia/ HTTP/1.1" 200 20835
+[16/Feb/2026 23:08:41] "GET /api/storia/ HTTP/1.1" 200 20835
+[16/Feb/2026 23:09:20] "GET /api/storia/ HTTP/1.1" 200 20835
+[16/Feb/2026 23:09:20] "GET /api/storia/ HTTP/1.1" 200 20835
+[16/Feb/2026 23:09:24] "GET /api/storia/ HTTP/1.1" 200 20835
+[16/Feb/2026 23:09:24] "GET /api/storia/ HTTP/1.1" 200 20835
+[16/Feb/2026 23:09:27] "GET /api/storia/ HTTP/1.1" 200 20835
+[16/Feb/2026 23:09:27] "GET /api/storia/ HTTP/1.1" 200 20835
+[16/Feb/2026 23:09:28] "GET /api/storia/ HTTP/1.1" 200 20835
+[16/Feb/2026 23:09:28] "GET /api/storia/ HTTP/1.1" 200 20835
+[16/Feb/2026 23:09:34] "GET /api/galleria/?page=1 HTTP/1.1" 200 12856
+[16/Feb/2026 23:09:34] "GET /api/galleria/?page=1 HTTP/1.1" 200 12856
+[16/Feb/2026 23:09:41] "GET /api/storia/ HTTP/1.1" 200 20835
+[16/Feb/2026 23:09:41] "GET /api/storia/ HTTP/1.1" 200 20835
+[16/Feb/2026 23:09:46] "GET /api/storia/ HTTP/1.1" 200 20835
+[16/Feb/2026 23:09:46] "GET /api/storia/ HTTP/1.1" 200 20835
+[16/Feb/2026 23:09:50] "GET /api/storia/ HTTP/1.1" 200 20835
+[16/Feb/2026 23:09:50] "GET /api/storia/ HTTP/1.1" 200 20835
+[16/Feb/2026 23:12:33] "GET /api/storia/ HTTP/1.1" 200 20835
+[16/Feb/2026 23:12:33] "GET /api/storia/ HTTP/1.1" 200 20835
+[16/Feb/2026 23:12:35] "GET /api/storia/ HTTP/1.1" 200 20835
+[16/Feb/2026 23:12:35] "GET /api/storia/ HTTP/1.1" 200 20835
+[16/Feb/2026 23:12:39] "GET /api/storia/ HTTP/1.1" 200 20835
+[16/Feb/2026 23:12:39] "GET /api/storia/ HTTP/1.1" 200 20835
+[16/Feb/2026 23:13:50] "GET /api/storia/ HTTP/1.1" 200 20835
+[16/Feb/2026 23:13:50] "GET /api/storia/ HTTP/1.1" 200 20835
+[16/Feb/2026 23:14:03] "GET /api/storia/ HTTP/1.1" 200 20835
+[16/Feb/2026 23:14:03] "GET /api/storia/ HTTP/1.1" 200 20835
+/var/www/html/backend/storia/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.11/threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/management/commands/runserver.py", line 134, in inner_run
+    self.check(display_num_errors=True)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/management/base.py", line 486, in check
+    all_issues = checks.run_checks(
+                 ^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/checks/registry.py", line 88, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/urls/resolvers.py", line 531, in check
+    for pattern in self.url_patterns:
+                   ^^^^^^^^^^^^^^^^^
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/urls/resolvers.py", line 718, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/urls/resolvers.py", line 711, in urlconf_module
+    return import_module(self.urlconf_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/var/www/html/backend/core/urls.py", line 11, in <module>
+    path('api/storia/', include('storia.urls')),
+                        ^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/urls/conf.py", line 39, in include
+    urlconf_module = import_module(urlconf_module)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/var/www/html/backend/storia/urls.py", line 4, in <module>
+    from .views import StoriaViewSet  # <--- Assicurati che il nome sia corretto
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/backend/storia/views.py", line 4, in <module>
+    from .serializers import StoriaSerializer
+  File "/var/www/html/backend/storia/serializers.py", line 1, in <module>
+    class StoriaSerializer(serializers.ModelSerializer):
+                           ^^^^^^^^^^^
+NameError: name 'serializers' is not defined
+/var/www/html/backend/storia/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+[16/Feb/2026 23:18:29] "GET /api/storia/ HTTP/1.1" 200 21646
+[16/Feb/2026 23:18:29] "GET /api/storia/ HTTP/1.1" 200 21646
+/var/www/html/backend/storia/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.11/threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/management/commands/runserver.py", line 134, in inner_run
+    self.check(display_num_errors=True)
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/management/base.py", line 486, in check
+    all_issues = checks.run_checks(
+                 ^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/checks/registry.py", line 88, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/urls/resolvers.py", line 531, in check
+    for pattern in self.url_patterns:
+                   ^^^^^^^^^^^^^^^^^
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/urls/resolvers.py", line 718, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/urls/resolvers.py", line 711, in urlconf_module
+    return import_module(self.urlconf_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/var/www/html/backend/core/urls.py", line 11, in <module>
+    path('api/storia/', include('storia.urls')),
+                        ^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/backend/.venv/lib/python3.11/site-packages/django/urls/conf.py", line 39, in include
+    urlconf_module = import_module(urlconf_module)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/var/www/html/backend/storia/urls.py", line 4, in <module>
+    from .views import StoriaViewSet  # <--- Assicurati che il nome sia corretto
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/backend/storia/views.py", line 4, in <module>
+    from .serializers import StoriaSerializer
+  File "/var/www/html/backend/storia/serializers.py", line 1, in <module>
+    class StoriaSerializer(serializers.ModelSerializer):
+                           ^^^^^^^^^^^
+NameError: name 'serializers' is not defined
+/var/www/html/backend/storia/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+[16/Feb/2026 23:19:59] "GET /media/storia/image/basilica-san-benedetto-norcia-vigili-del-fuoco-salvarono-facciata-subito-do_nCMsirH.jpg HTTP/1.1" 200 152783
+[16/Feb/2026 23:19:59] "GET /media/storia/image/alluvione-delle-marche-del-2022.jpg HTTP/1.1" 200 126139
+[16/Feb/2026 23:19:59] "GET /media/storia/image/nubifragio-e-frana-sull-isola-di-ischia.jpg HTTP/1.1" 200 237908
+[16/Feb/2026 23:19:59] "GET /media/storia/image/un-anno-fa-l-alluvione-toscana-il-ricordo-dei-vigili-del-fuoco.jpg HTTP/1.1" 200 457919
+[16/Feb/2026 23:19:59] "GET /media/storia/image/la-tragedia-di-ravanusa.jpg HTTP/1.1" 200 149840
+[16/Feb/2026 23:19:59] "GET /media/storia/image/incidente-funivia-stresa-alpino-mottarone.jpg HTTP/1.1" 200 290501
+[16/Feb/2026 23:19:59] "GET /media/storia/image/missione-internazionale-sisma-albania_4.jpg HTTP/1.1" 200 241647
+[16/Feb/2026 23:19:59] "GET /media/storia/image/missione-internazionale-beirut-explosion.jpg HTTP/1.1" 200 179682
+[16/Feb/2026 23:19:59] "GET /media/storia/image/un-anno-fa-la-tragica-alluvione-emilia-romagna.jpg HTTP/1.1" 200 238471
+[16/Feb/2026 23:19:59] "GET /media/storia/image/esplosione-cascina-quargnento-al_1.jpg HTTP/1.1" 200 202412
+[16/Feb/2026 23:19:59] "GET /media/storia/image/museo-storico-dei-vigili-del-fuoco-di-roma-capannelle.jpg HTTP/1.1" 200 360753
+[16/Feb/2026 23:19:59] "GET /media/storia/image/missione-internazionale-sisma-turchia.jpg HTTP/1.1" 200 917560
+[17/Feb/2026 05:58:21] "GET /api/storia/ HTTP/1.1" 200 21646
+[17/Feb/2026 06:03:39] "GET /api/storia/ HTTP/1.1" 200 21646

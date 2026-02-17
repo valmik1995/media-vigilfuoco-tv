@@ -1,0 +1,35 @@
+name: media-vigilfuoco
+type: generic
+docroot: ""
+database:
+  type: postgres
+  version: "17"
+
+# Pacchetti necessari per Django, GDAL e Python
+webimage_extra_packages: [python3-pip, python3-venv, gdal-bin, libgdal-dev, libmagic1, supervisor, ffmpeg, gdal-bin, libgdal-dev, libgeos-dev, proj-bin]
+
+dbimage_extra_packages: [postgresql-17-postgis-3]
+
+# Node.js per il frontend React
+nodejs_version: "20"
+
+# Esponiamo le porte per lo sviluppo
+web_extra_exposed_ports:
+  - name: django
+    container_port: 8000
+    http_port: 8000
+    https_port: 8443
+  - name: vite
+    container_port: 5173
+    http_port: 5173
+    https_port: 5174
+
+# Variabili d'ambiente per Python
+web_environment:
+  - VIRTUAL_ENV=/var/www/html/backend/.venv
+
+hooks:
+  post-start:
+    # - exec-host: ddev import-db --target-db=media --src=.ddev/db-build/install-vvf.sql || true 
+    - exec: mkdir -p /var/www/html/logs && touch /var/www/html/logs/django.log /var/www/html/logs/celery.log /var/www/html/logs/react.log 
+

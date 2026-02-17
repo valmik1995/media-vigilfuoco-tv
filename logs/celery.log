@@ -1,0 +1,118 @@
+ 
+ -------------- celery@media-vigilfuoco-web v5.6.2 (recovery)
+--- ***** ----- 
+-- ******* ---- Linux-6.12.54-linuxkit-aarch64-with-glibc2.36 2026-02-16 18:35:42
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         core:0xffff94197350
+- ** ---------- .> transport:   redis://redis:6379/0
+- ** ---------- .> results:     redis://redis:6379/0
+- *** --- * --- .> concurrency: 10 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . video.tasks.process_video_task
+
+
+worker: Warm shutdown (MainProcess)
+ 
+ -------------- celery@media-vigilfuoco-web v5.6.2 (recovery)
+--- ***** ----- 
+-- ******* ---- Linux-6.12.54-linuxkit-aarch64-with-glibc2.36 2026-02-16 18:40:01
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         core:0xffff90d36cd0
+- ** ---------- .> transport:   redis://redis:6379/0
+- ** ---------- .> results:     redis://redis:6379/0
+- *** --- * --- .> concurrency: 10 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . video.tasks.process_video_task
+
+
+worker: Warm shutdown (MainProcess)
+ 
+ -------------- celery@media-vigilfuoco-web v5.6.2 (recovery)
+--- ***** ----- 
+-- ******* ---- Linux-6.12.54-linuxkit-aarch64-with-glibc2.36 2026-02-16 18:43:07
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         core:0xffff8c2e6ed0
+- ** ---------- .> transport:   redis://redis:6379/0
+- ** ---------- .> results:     redis://redis:6379/0
+- *** --- * --- .> concurrency: 10 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . video.tasks.process_video_task
+
+ 
+ -------------- celery@media-vigilfuoco-web v5.6.2 (recovery)
+--- ***** ----- 
+-- ******* ---- Linux-6.12.54-linuxkit-aarch64-with-glibc2.36 2026-02-16 18:45:04
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         core:0xffff9ea26d90
+- ** ---------- .> transport:   redis://redis:6379/0
+- ** ---------- .> results:     redis://redis:6379/0
+- *** --- * --- .> concurrency: 10 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . video.tasks.process_video_task
+
+ 
+ -------------- celery@media-vigilfuoco-web v5.6.2 (recovery)
+--- ***** ----- 
+-- ******* ---- Linux-6.12.54-linuxkit-aarch64-with-glibc2.36 2026-02-16 21:22:45
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         core:0xffffb4b67050
+- ** ---------- .> transport:   redis://redis:6379/0
+- ** ---------- .> results:     redis://redis:6379/0
+- *** --- * --- .> concurrency: 10 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . video.tasks.process_video_task
+
+ 
+ -------------- celery@media-vigilfuoco-web v5.6.2 (recovery)
+--- ***** ----- 
+-- ******* ---- Linux-6.12.54-linuxkit-aarch64-with-glibc2.36 2026-02-16 22:59:26
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         core:0xffff80e77450
+- ** ---------- .> transport:   redis://redis:6379/0
+- ** ---------- .> results:     redis://redis:6379/0
+- *** --- * --- .> concurrency: 10 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . video.tasks.process_video_task
+
