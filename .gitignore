@@ -10,3 +10,8 @@ frontend/src/assets/media/
 frontend/public/media/
 .DS_Store
 data_sync.sql
+
+# DDEV: Sincronizza config ma non i dati pesanti
+.ddev/.dbbackups/
+.ddev/import-db*
+.ddev/db-build/
