@@ -1,65 +1,94 @@
-import React from 'react';
-import { useQuery } from '@tanstack/react-query';
-import { Link } from 'react-router-dom';
-import { getStorie } from '../api/storiaService';
-import { Storia } from '../types/storia';
+import { useSearchStore } from "@/store/useSearchStore";
+import React, { useState, useEffect } from "react";
+import { useQuery, keepPreviousData } from "@tanstack/react-query";
+import { getStorie } from "../api/storiaService";
+import { Storia } from "@types";
+import Card from "@/components/common/Card";
+import Pagination from "@/components/common/Pagination";
+import { BookOpen, Loader2 } from "lucide-react";
 
 const StoriaPage: React.FC = () => {
-  // Sostituiamo useEffect e useState con useQuery
-  const { data: storie, isLoading, isError } = useQuery<Storia[]>({
-    queryKey: ['storie'],
-    queryFn: getStorie,
+  const searchQuery = useSearchStore((state) => state.searchQuery);
+  const [currentPage, setCurrentPage] = useState(1);
+  const PAGE_SIZE = 12;
+
+  const { data, isLoading, isError, error, isPlaceholderData } = useQuery({
+    queryKey: ["storie", currentPage, searchQuery],
+    queryFn: () => getStorie(currentPage, searchQuery),
+    placeholderData: keepPreviousData,
   });
 
-  if (isLoading) return <div className="p-10 text-center text-xl">Caricamento storie...</div>;
-  
-  if (isError) return <div className="p-10 text-center text-red-600">Errore nel caricamento dei dati.</div>;
+  // Reset della pagina se l'utente inizia a cercare
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [searchQuery]);
+
+  /**
+   * Helper per mappare i dati con LOG
+   */
+  const mapToCardProps = (s: Storia) => {
+    // --- LOG DI DEBUG 2: Mappatura singolo elemento ---
+    console.log(`Mappatura storia ID ${s.id}:`, s);
+
+    return {
+      id: s.id,
+      title: s.titolo,
+      image: s.immagine,
+      date: s.data,
+      description: s.comune_nome || "Dettagli storici",
+      slug: s.slug,
+      type: "storia" as const,
+      basePath: "/storia",
+    };
+  };
+
+  if (isLoading)
+    return (
+      <div className="flex justify-center p-20">
+        <Loader2 className="animate-spin text-red-600" size={48} />
+      </div>
+    );
+
+  if (isError) return <div className="p-10 text-center text-red-600">Errore: {(error as Error).message}</div>;
+
+  // Se data ha la proprietà results, prendiamo quella, altrimenti controlliamo se data è l'array stesso
+  const storie = data?.results || (Array.isArray(data) ? data : []);
+
+  // Il conteggio totale dipende da dove si trova: data.count (paginato) o data.length (non paginato)
+  const totalItems = data?.count || (Array.isArray(data) ? data.length : 0);
+  const totalPages = Math.ceil(totalItems / PAGE_SIZE);
 
   return (
-    <div className="container mx-auto p-4">
-      <h1 className="text-3xl font-bold mb-6">La Nostra Storia</h1>
-      
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {/* React Query garantisce che storie sia l'array ritornato dal service */}
-        {storie?.map((s) => (
-          <div key={s.id} className="rounded-lg overflow-hidden border shadow-sm hover:shadow-md transition bg-white">
-            {s.immagine && (
-              <Link to={`/storia/${s.slug}`}>
-                <img 
-                  src={s.immagine} 
-                  alt={s.titolo} 
-                  className="w-full h-48 object-cover hover:opacity-90 transition-opacity"
-                />
-              </Link>
-            )}
-            <div className="p-4">
-              <span className="text-sm text-red-600 font-semibold">{s.data}</span>
-              
-              <Link to={`/storia/${s.slug}`} className="block mt-1 group">
-                <h2 className="text-xl font-bold group-hover:text-red-700 transition-colors">
-                  {s.titolo}
-                </h2>
-              </Link>
+    <main className="container mx-auto px-4 py-8">
+      <header className="mb-10 flex items-center gap-3 border-b pb-6">
+        <BookOpen className="text-amber-600" size={32} />
+        <h1 className="text-3xl font-bold">La Nostra Storia</h1>
+      </header>
 
-              <p className="text-gray-600 mt-2">{s.comune_nome || 'Comune non specificato'}</p>
-              
-              <div className="mt-3 flex flex-wrap gap-2">
-                {s.etichette_nomi?.map(tag => (
-                  <span key={tag} className="text-xs bg-gray-100 px-2 py-1 rounded text-gray-700">
-                    #{tag}
-                  </span>
-                ))}
-              </div>
-            </div>
-          </div>
-        ))}
-      </div>
-
-      {storie?.length === 0 && (
-        <p className="text-center py-10 text-gray-500">Nessuna storia trovata nel database.</p>
+      {storie.length > 0 ? (
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {storie.map((s: Storia) => (
+            <Card key={s.id} {...mapToCardProps(s)} />
+          ))}
+        </div>
+      ) : (
+        <p className="text-center py-20 text-gray-500">Nessun dato trovato.</p>
       )}
-    </div>
+
+      {/* Paginazione: viene mostrata solo se ci sono più pagine */}
+      <Pagination
+        currentPage={currentPage}
+        totalPages={totalPages}
+        onPageChange={(page) => {
+          console.log("Cambio pagina richiesto:", page);
+          setCurrentPage(page);
+        }}
+        hasNext={!!data?.next}
+        hasPrevious={!!data?.previous}
+        disabled={isPlaceholderData}
+      />
+    </main>
   );
-};
+};;
 
 export default StoriaPage;

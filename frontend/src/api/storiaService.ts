@@ -1,29 +1,36 @@
-import axios from 'axios';
-import { Storia } from '../types/storia';
+import axios from "axios";
+import { Storia } from "@types";
 
-const API_URL = 'https://media-vigilfuoco.ddev.site:8443/api/storia/';
+const API_URL = "https://media-vigilfuoco.ddev.site:8443/api/storia/";
 
-export const getStorie = async (): Promise<Storia[]> => {
-  try {
-    const response = await axios.get(API_URL);
-    
-    // DEBUG: Guarda nella console del browser cosa arriva davvero
-    console.log("Dati ricevuti da Django:", response.data);
+export const getStorie = async (page = 1, search = "") => {
+  // DEBUG: verifica se la stringa arriva qui
+  console.log("Service invia a Django search:", search);
 
-    // Gestione robusta: 
-    // 1. Se c'è .results, lo restituiamo
-    // 2. Se response.data è già un array, lo restituiamo
-    // 3. Altrimenti restituiamo un array vuoto []
-    const data = response.data.results || response.data;
-    return Array.isArray(data) ? data : [];
-    
-  } catch (error) {
-    console.error("Errore nel recupero storie:", error);
-    return []; // Fondamentale: restituisce array vuoto invece di rompere React
-  }
+  const response = await axios.get(API_URL, {
+    params: {
+      page: page,
+      search: search, // Deve chiamarsi 'search' per DRF
+    },
+  });
+  return response.data;
 };
 
-export const getStoriaBySlug = async (slug: string): Promise<Storia> => {
-  const response = await axios.get<Storia>(`${API_URL}${slug}/`);
-  return response.data;
+export const getStoriaBySlug = async (slug: string) => {
+  try {
+    const response = await fetch(`https://media-vigilfuoco.ddev.site:8443/api/storia/${slug}`);
+    const data = await response.json();
+
+    return {
+      ...data,
+      // Cerchiamo 'video' (singolare) come visto nei dati grezzi
+      videos: Array.isArray(data.video) ? data.video : data.video ? [data.video] : [],
+
+      // Cerchiamo 'immagine' (singolare) come visto nei dati grezzi
+      immagini: Array.isArray(data.immagine) ? data.immagine : data.immagine ? [data.immagine] : [],
+    };
+  } catch (error) {
+    console.error("Errore Service:", error);
+    throw error;
+  }
 };

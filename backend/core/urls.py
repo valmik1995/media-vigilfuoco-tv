@@ -9,6 +9,7 @@ urlpatterns = [
     path('api/video/', include('video.urls')),
     path('api/galleria/', include('galleria.urls')),
     path('api/storia/', include('storia.urls')),
+    path('api/visti-in-tv/', include('visti_in_tv.urls')), # Gli endpoint saranno sotto /api/visti/
 ]
 
 # Questo permette di vedere le foto caricate nel browser durante lo sviluppo

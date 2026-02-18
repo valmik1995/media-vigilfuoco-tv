@@ -1,7 +1,7 @@
 # storia/urls.py
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
-from .views import StoriaViewSet  # <--- Assicurati che il nome sia corretto
+from .views import StoriaViewSet, storia_detail  # <--- Assicurati che il nome sia corretto
 
 router = DefaultRouter()
 # Lasciando la stringa vuota r'', l'endpoint sarà /api/storia/
@@ -10,4 +10,5 @@ router.register(r'', StoriaViewSet, basename='storia')
 
 urlpatterns = [
     path('', include(router.urls)),
+    path('<int:slug>/', storia_detail, name='storia-detail'),
 ]

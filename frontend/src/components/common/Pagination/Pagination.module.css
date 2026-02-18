@@ -1,0 +1,52 @@
+/* src/components/common/Pagination/Pagination.module.css */
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 3rem;
+  padding: 1rem;
+}
+
+.pageBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #e2e8f0;
+  background: white;
+  color: #4a5568;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.pageBtn:hover:not(:disabled) {
+  background: #f7fafc;
+  border-color: #cbd5e0;
+  color: #2d3748;
+  transform: scale(1.05);
+}
+
+.pageBtn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  background: #edf2f7;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.95rem;
+  color: #718096;
+}
+
+.current {
+  font-weight: 700;
+  color: #2d3748;
+  background: #edf2f7;
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+}

@@ -1,0 +1,14 @@
+@theme {
+  /* Palette Istituzionale */
+  --color-vvf-red: #b33a3a;
+  --color-vvf-dark: #1e293b;
+  --color-vvf-gold: #d4af37;
+
+  /* Tipografia */
+  --text-vvf-menu: 13px;
+  --text-vvf-brand: 18px;
+  --text-vvf-news: 11px;
+
+  /* Ombre e Arrotondamenti custom se necessari */
+  --shadow-vvf: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}

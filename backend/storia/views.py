@@ -1,3 +1,5 @@
+from rest_framework.decorators import api_view
+from rest_framework.response import Response
 from rest_framework import viewsets, filters
 from django_filters.rest_framework import DjangoFilterBackend
 from .models import Storia
@@ -19,3 +21,14 @@ class StoriaViewSet(viewsets.ReadOnlyModelViewSet):
     search_fields = ['titolo', 'body']
     ordering_fields = ['data', 'titolo']
     lookup_field = 'slug'  # Permette a React di usare lo slug nell'URL invece dell'ID
+
+
+@api_view(['GET'])
+def storia_detail(request, slug):
+    try:
+        # Cerchiamo la storia specifica nel database media
+        storia = Storia.objects.get(slug=slug)
+        serializer = StoriaSerializer(storia)
+        return Response(serializer.data)
+    except Storia.DoesNotExist:
+        return Response({'error': 'Storia non trovata'}, status=404)

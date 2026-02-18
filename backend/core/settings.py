@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'galleria',           # Tua App Galleria 
     'shared',             # Tua App Dati Condivisi - Vecchie Tassonomie di Drupal
     'storia',             # Tua App Storia - Contenuti di Storia
+    'visti_in_tv',        # Tua App Visti in TV - Contenuti di Visti in TV       
 ]
 
 # 6. MIDDLEWARE (Ordine critico per CORS e Sicurezza)

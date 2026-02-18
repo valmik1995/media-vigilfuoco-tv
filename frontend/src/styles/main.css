@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+/* 1. DEFINISCI IL TEMA QUI (Fondamentale per Tailwind v4) */
+@theme {
+  --color-vvf-red: #D02635;
+  --color-vvf-dark: #1e293b;
+  --text-vvf-menu: 13px;
+}
+
+@layer components {
+  @import "./components.css";
+  @import "./navbar.css";
+  @import "./theme.css";
+  @import "./typography.css";
+}
+/* 3. TEST DI EMERGENZA (Se lo vedi giallo, il file funziona!) */
+/* body { background-color: yellow !important; } */

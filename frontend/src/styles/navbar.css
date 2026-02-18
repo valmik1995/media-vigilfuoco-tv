@@ -1,0 +1,58 @@
+@layer components {
+  /* 1. HEADER E BARRA PRINCIPALE */
+  .header-main-bar {
+    /* Corrisponde al div che contiene Logo, Menu e Social */
+    @apply max-w-7xl mx-auto px-4 h-16 flex items-center justify-between relative;
+  }
+
+  /* 2. WRAPPER NAVIGAZIONE (Il contenitore che si apre/chiude) */
+  .vvf-nav-wrapper {
+    /* Mobile: Menu a tendina assoluto */
+    @apply hidden flex-col absolute top-16 left-0 w-full bg-[#D02635] py-4 z-40 shadow-2xl;
+    
+    /* Desktop: Diventa un contenitore FLEX-1 per gestire gli spazi */
+    /* lg:flex-1 permette al wrapper di occupare tutto lo spazio tra logo e bordo */
+    @apply lg:flex lg:flex-row lg:static lg:flex-1 lg:py-0 lg:bg-transparent lg:shadow-none lg:items-center;
+  }
+
+  /* Stato Aperto (Mobile) */
+  .vvf-nav-wrapper.is-open {
+    @apply flex;
+  }
+
+  /* 3. IL MENU (I Link) */
+  .vvf-nav-wrapper nav {
+    /* lg:ml-10: Crea lo spazio vuoto tra il Logo e l'inizio del Menu */
+    /* lg:mr-auto: La "molla" che spinge i social all'estrema destra */
+    @apply flex flex-col lg:flex-row lg:items-center lg:ml-10 lg:mr-auto;
+  }
+
+  /* 4. LINK STILIZZATI */
+  .nav-link-vvf {
+    /* Mobile style */
+    @apply block p-4 text-white no-underline font-black uppercase text-[13px] tracking-wider border-b border-white/10 transition-all duration-200;
+    
+    /* Desktop style */
+    @apply lg:py-5 lg:px-4 lg:border-b-4 lg:border-transparent lg:hover:bg-white/10;
+  }
+
+  /* Stato Active */
+  .nav-link-vvf.active {
+    @apply bg-black/10 lg:bg-transparent lg:border-white;
+  }
+
+  /* 5. SOCIAL LINKS */
+  /* Seleziona il div dei social dentro il wrapper */
+  .vvf-nav-wrapper > div:last-child {
+    /* Mobile style */
+    @apply p-4 border-t border-white/10;
+    
+    /* Desktop style: Niente bordi, allineato a destra */
+    @apply lg:p-0 lg:border-none lg:ml-6 lg:flex lg:items-center;
+  }
+
+  /* 6. NEWS BAR (Sotto la navbar) */
+  .news-bar {
+    @apply bg-slate-100 border-b border-slate-200 py-2 px-4;
+  }
+}

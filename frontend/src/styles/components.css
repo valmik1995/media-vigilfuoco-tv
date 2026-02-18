@@ -1,0 +1,55 @@
+@layer components {
+  /* Layout Contenitore Principale */
+  .vvf-detail-container { 
+    @apply max-w-4xl mx-auto space-y-8 p-4; 
+  }
+  
+  /* Header e Titoli */
+  .vvf-detail-title { 
+    @apply text-4xl font-black text-slate-900 uppercase tracking-tighter leading-tight; 
+  }
+  
+  .vvf-detail-badge { 
+    @apply text-vvf-red font-black uppercase tracking-widest text-[10px] bg-red-50 px-2 py-0.5 rounded; 
+  }
+
+  /* Sezione Media & Video Card */
+  .vvf-video-card { 
+    @apply overflow-hidden rounded-2xl bg-black shadow-2xl border border-slate-200 mb-6; 
+  }
+  
+  .vvf-video-footer { 
+    @apply flex justify-between items-center p-4 bg-slate-900; 
+  }
+  
+  .vvf-video-label { 
+    @apply text-white/70 text-xs font-bold uppercase tracking-widest; 
+  }
+
+  /* Bottone Download Video */
+  .vvf-download-btn {
+    @apply flex items-center gap-2 px-4 py-2 bg-slate-700 hover:bg-vvf-red 
+           text-white text-[10px] font-black uppercase tracking-wider 
+           rounded-lg transition-colors duration-200 no-underline border-none cursor-pointer;
+  }
+
+  /* Corpo del Testo (Drupal Body) */
+  .vvf-prose {
+    @apply text-slate-700 leading-relaxed text-lg mt-6;
+  }
+  .vvf-prose p { @apply mb-4; }
+  .vvf-prose strong { @apply font-extrabold text-slate-900; }
+
+  /* Galleria Fotografica Extra */
+  .vvf-gallery-grid {
+    @apply grid grid-cols-2 md:grid-cols-3 gap-4 mt-8 pt-8 border-t border-slate-100;
+  }
+
+  .vvf-gallery-item {
+    @apply aspect-video overflow-hidden rounded-lg bg-slate-100;
+  }
+
+  .vvf-gallery-img {
+    @apply w-full h-full object-cover hover:scale-105 transition-transform duration-300;
+  }
+}
